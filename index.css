@@ -39,3 +39,15 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 620px) {
+  .github {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer a {
+    font-size: small;
+  }
+}
